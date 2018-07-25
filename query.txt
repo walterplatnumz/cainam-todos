@@ -1,0 +1,33 @@
+SELECT cu.CustomerName AS "Customer Name", cu.ContactName AS "Contact Name", cu.Address AS "Customer Address", cu.City AS "City", cu.PostalCode AS "Postal Code", cu.Country AS "Country", ord.OrderDate AS "Order Date", ordt.Quantity AS "Order Quantity", ship.ShipperName AS "Shipper Name", ship.Phone AS "Shipper Contact", emp.FirstName AS "Employee Firstname", emp.LastName AS "Employee Lastname", pro.ProductName AS "Product Name", pro.Unit AS "Product Units", pro.Price AS "Product Price", cat.CategoryName AS "Product Category" FROM Customers AS cu, Orders AS ord, Shippers AS ship, Employees AS emp, Products AS pro, Categories AS cat, OrderDetails AS ordt, Suppliers WHERE ord.OrderDate >= "1996-07-01" AND ord.OrderDate <= "1996-07-31" AND ship.ShipperName = "Speedy Express" AND ord.EmployeeID = emp.EmployeeID AND (emp.EmployeeID = 1 OR emp.EmployeeID = 4) AND pro.CategoryID = cat.CategoryID AND ordt.OrderID = ord.OrderID AND ordt.ProductID = pro.ProductID AND ord.CustomerID = cu.CustomerID AND ord.ShipperID = 1 AND pro.SupplierID = Suppliers.SupplierID
+
+
+
+
+SELECT cu.CustomerName AS "Customer Name", cu.ContactName AS "Contact Name", cu.Address AS "Customer Address", cu.City AS "City", cu.PostalCode AS "Postal Code", cu.Country AS "Country", ord.OrderID AS "Order ID", ord.OrderDate AS "Order Date", ordt.Quantity AS "Order Quantity", pro.ProductName AS "Product Name", pro.Unit AS "Product Units", pro.Price AS "Product Price", cat.CategoryName AS "Product Category", ship.ShipperName AS "Shipper Name", ship.Phone AS "Shipper Contact", emp.FirstName+ ' '+ emp.LastName AS "Employee Name" FROM Customers AS cu, Orders AS ord, Shippers AS ship, Employees AS emp, Products AS pro, Categories AS cat, OrderDetails AS ordt, Suppliers AS supp WHERE ord.OrderDate >= "1996-07-01" AND ord.OrderDate <= "1996-07-31" AND ship.ShipperName = "Speedy Express" AND ord.EmployeeID = emp.EmployeeID AND (emp.EmployeeID = 1 OR emp.EmployeeID = 4) AND pro.CategoryID = cat.CategoryID AND ordt.OrderID = ord.OrderID AND ordt.ProductID = pro.ProductID AND ord.CustomerID = cu.CustomerID AND  ord.ShipperID = ship.ShipperID AND ord.ShipperID = 1 AND pro.SupplierID = supp.SupplierID
+
+
+
+
+SELECT cu.CustomerName AS "Customer Name", cu.ContactName AS "Contact Name", cu.Address AS "Customer Address", cu.City AS "City", cu.PostalCode AS "Postal Code", cu.Country AS "Country", ord.OrderID AS "Order ID", ord.OrderDate AS "Order Date", ordt.Quantity AS "Order Quantity", pro.ProductName AS "Product Name", pro.Unit AS "Product Units", pro.Price AS "Product Price", cat.CategoryName AS "Product Category", ship.ShipperName AS "Shipper Name", ship.Phone AS "Shipper Contact", CONCAT(emp.FirstName, ' ', emp.LastName) AS "Employee Name" FROM Customers AS cu, Orders AS ord, Shippers AS ship, Employees AS emp, Products AS pro, Categories AS cat, OrderDetails AS ordt, Suppliers AS supp WHERE ord.OrderDate >= "1996-07-01" AND ord.OrderDate <= "1996-07-31" AND ship.ShipperName = "Speedy Express" AND ord.EmployeeID = emp.EmployeeID AND (emp.EmployeeID = 1 OR emp.EmployeeID = 4) AND pro.CategoryID = cat.CategoryID AND ordt.OrderID = ord.OrderID AND ordt.ProductID = pro.ProductID AND ord.CustomerID = cu.CustomerID AND  ord.ShipperID = ship.ShipperID AND ord.ShipperID = 1 AND pro.SupplierID = supp.SupplierID
+
+
+SELECT cu.CustomerName AS "Customer Name", cu.ContactName AS "Contact Name", cu.Address AS "Customer Address", cu.City AS "City", cu.PostalCode AS "Postal Code", cu.Country AS "Country", ord.OrderID AS "Order ID", ord.OrderDate AS "Order Date", ordt.Quantity AS "Order Quantity", pro.ProductName AS "Product Name", pro.Unit AS "Product Units", pro.Price AS "Product Price", cat.CategoryName AS "Product Category", ship.ShipperName AS "Shipper Name", ship.Phone AS "Shipper Contact", emp.FirstName AS "Employee Firstname", emp.LastName AS "Employee Lastname" FROM Customers AS cu, Orders AS ord, Shippers AS ship, Employees AS emp, Products AS pro, Categories AS cat, OrderDetails AS ordt, Suppliers AS supp WHERE ord.OrderDate >= "1996-07-01" AND ord.OrderDate <= "1996-07-31" AND ship.ShipperName = "Speedy Express" AND ord.EmployeeID = emp.EmployeeID AND (emp.EmployeeID = 1 OR emp.EmployeeID = 4) AND pro.CategoryID = cat.CategoryID AND ordt.OrderID = ord.OrderID AND ordt.ProductID = pro.ProductID AND ord.CustomerID = cu.CustomerID AND  ord.ShipperID = ship.ShipperID AND ord.ShipperID = 1 AND pro.SupplierID = supp.SupplierID
+
+
+SELECT cu.CustomerName AS "Customer Name", cu.ContactName AS "Contact Name", cu.Address AS "Customer Address", cu.City AS "City", cu.PostalCode AS "Postal Code", cu.Country AS "Country", ord.OrderID AS "Order ID", ord.OrderDate AS "Order Date", ordt.Quantity AS "Order Quantity", pro.ProductName AS "Product Name", cat.CategoryName AS "Product Category", pro.Price AS "Product Price", pro.Unit AS "Product Units", ship.ShipperName AS "Shipper Name", ship.Phone AS "Shipper Contact", emp.LastName AS "Employee Lastname", emp.FirstName AS "Employee Firstname" FROM Customers AS cu, Orders AS ord, Shippers AS ship, Employees AS emp, Products AS pro, Categories AS cat, OrderDetails AS ordt, Suppliers AS supp WHERE ord.OrderDate >= "1996-07-01" AND ord.OrderDate <= "1996-07-31" AND ship.ShipperName = "Speedy Express" AND ord.EmployeeID = emp.EmployeeID AND (emp.EmployeeID = 1 OR emp.EmployeeID = 4) AND pro.CategoryID = cat.CategoryID AND ordt.OrderID = ord.OrderID AND ordt.ProductID = pro.ProductID AND ord.CustomerID = cu.CustomerID AND  ord.ShipperID = ship.ShipperID AND ord.ShipperID = 1 AND pro.SupplierID = supp.SupplierID
+
+Hello,
+
+Kindly receive the following software development teaser submission links.
+
+SOFTWARE DEVELOPMENT TEASERS 
+1.  SQL SKILLS
+http://dpaste.com/1TF0AMB
+
+2. JAVASCRIPT SKILLS
+
+https://codepen.io/walterplatnumz/pen/QBvYZY
+
+
+
+

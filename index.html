@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="backbonejs">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Walter V. Faustine • Cainam">
+        <title>Cainam • My ToDO</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">      
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                $("#cainam-todo-list").sortable({
+                    opacity: 0.6,
+                    cursor: 'move',
+                    update: function () { }
+                });
+                $("#cainam-todo-list").disableSelection();
+            });
+
+            $(function () {
+                $("#cainam-todo-list-completed").sortable({
+                    opacity: 0.6,
+                    cursor: 'move',
+                    update: function () { }
+                });
+                $("#cainam-todo-list-completed").disableSelection();
+            });
+        </script>
+    </head>
+
+    <body>
+        <section id="cainam-main-app">
+            <header id="cainam-header">
+                <h1 id="hint">HISP TZ • ToDO APP</h1>
+                <div class="input-todo-item">
+                    <div>
+                        <input id="create-new-todo" placeholder="Do you want to add new Task to your ToDOs?" autofocus>
+                        <i id="add" class="fas fa-plus-circle adding-btn"></i> 
+                    </div>                   
+                </div>
+            </header>
+            <section id="cainam-main">
+                <ul id="cainam-todo-list"></ul>
+                &nbsp;
+                <h3 id="completed-title" class="completed-hint">COMPLETED TASKS</h3>
+                <hr class="horizontal">
+                <ul id="cainam-todo-list-completed"> &nbsp;
+</ul>
+            </section>
+            <footer id="cainam-todo-footer">
+                <div>Completed Task (<img width="18px" src="https://png.icons8.com/color/50/000000/double-tick.png">) &nbsp; | Created Task (<img width="18px" src="https://png.icons8.com/material-two-tone/50/000000/double-tick.png">)</div>
+            </footer>
+        </section>
+
+        <footer id="info">
+            <p class="information">
+                Click <strong>blackTick</strong> To Mark Task as <strong>Completed</strong> And Vice Versa Is True
+            </p>
+            <p>Developed By
+                <a href="https://github.com/walterplatnumz">Walter V. Faustine</a>
+                Under <strong>HISP TZ</strong>
+            </p>
+        </footer>
+
+        <script type="text/template" id="item-template">
+            <input class="edit" value="<%- title %>">
+        </script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
