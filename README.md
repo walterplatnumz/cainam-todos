@@ -4,18 +4,11 @@
 <img src="../../raw/master/assets/hisptz.png" width="100" height="150" align="right" />
 
 # HISPTZ(DHIS2) ToDOs APP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-> Procurement Management System for University of Dar-es-salaam(UDSM PMIS)
+> ToDOs APP for scheduling your daily tasks to be accomplished
 
 ------------------------------------------------------------------------
-Designed & Developed By: 
+> Designed & Developed By: Walter V. Faustine (Graduate University Of Dar-es-salaam(UDSM) 2018)
 
-#Walter V. Faustine
-
-University Of Dar-es-salaam(UDSM)
-
-Bechelor In Computer Science
-
-2015 - 2018
 ------------------------------------------------------------------------
 Development Tech: Html, Javascript and CSS
 VCS: Git
