@@ -1,7 +1,7 @@
 <!-- # UDSM Procurement MIS(UDSM PMIS) -->
 
 
-<img src="../../raw/master/assets/hisptz.png" width="100" height="150" align="right" />
+<img src="../../raw/master/assets/hisptz.png" width="200" height="150" align="right" />
 
 # HISPTZ(DHIS2) ToDOs APP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 > ToDOs APP for scheduling your daily tasks to be accomplished
@@ -26,5 +26,4 @@ Distributed under the Apache License 2.0 license. See ``LICENSE`` for more infor
 ## License
 
 <img src="../../raw/master/assets/apachelicence.png" width="400" height="90" align="left" />
-
 To the extent possible under law, [Walter V. Faustine](http://twitter.com/walterplatnumz) has waived all copyright and related or neighboring rights to this work.
