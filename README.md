@@ -25,6 +25,6 @@ Distributed under the Apache License 2.0 license. See ``LICENSE`` for more infor
 
 ## License
 
-<img src="../../raw/master/assets/cainamtodo.png" width="400" height="90" align="left" />
+<img src="../../raw/master/assets/apachelicence.png" width="400" height="90" align="left" />
 
 To the extent possible under law, [Walter V. Faustine](http://twitter.com/walterplatnumz) has waived all copyright and related or neighboring rights to this work.
