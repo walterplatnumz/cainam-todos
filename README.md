@@ -1,7 +1,7 @@
 <!-- # UDSM Procurement MIS(UDSM PMIS) -->
 
 
-<img src="../../raw/master/assets/hisptz.png" width="200" height="150" align="right" />
+<img src="../../raw/master/assets/hisptz.png" width="150" height="150" align="right" />
 
 # HISPTZ(DHIS2) ToDOs APP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 > ToDOs APP for scheduling your daily tasks to be accomplished
