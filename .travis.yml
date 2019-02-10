@@ -1,0 +1,9 @@
+language: javascript
+
+cache: bundler
+
+script:
+- bundle exec rspec spec
+- bundle exec rake update_spec
+- git diff --stat --exit-code
+- git diff --stat --cached --exit-code
