@@ -1,7 +1,5 @@
 language: javascript
 
-cache: bundler
-
 script:
 - bundle exec rspec spec
 - bundle exec rake update_spec
