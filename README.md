@@ -6,8 +6,9 @@
 # HISPTZ(DHIS2) ToDOs APP [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 [![Build Status](https://travis-ci.org/waltervfaustine/cainam-todos.svg?branch=master)](https://travis-ci.org/waltervfaustine/cainam-todos)
-![](https://img.shields.io/github/license/waltervfaustine/cainam-todos.svg?style=flat)> ToDOs APP for scheduling your daily tasks to be accomplished
+![](https://img.shields.io/github/license/waltervfaustine/cainam-todos.svg?style=flat)
 
+> ToDOs APP for scheduling your daily tasks to be accomplished
 
 ------------------------------------------------------------------------
 > Designed & Developed By: Walter V. Faustine (Graduate University Of Dar-es-salaam(UDSM) 2018)
